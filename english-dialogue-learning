@@ -1,0 +1,51 @@
+---
+name: english-dialogue-learning
+description: Practice and coach English conversation through role-play, sample dialogues, correction, and review. Use when the user asks to practice spoken English, daily/business/travel/interview conversation, dialogue role-play, fluency, natural English replies, or feedback on conversation transcripts.
+---
+
+# English Dialogue Learning
+
+## Workflow
+
+1. Set the session.
+   - Infer level, scene, role, and goal from the prompt.
+   - If the prompt is broad, state a default: A2-B1, daily conversation, Chinese feedback.
+   - Ask at most two short questions only when the missing detail changes the exercise.
+
+2. Run practice.
+   - Start with one short scene setup and speak first as the partner.
+   - Keep each turn natural: 1-3 sentences.
+   - Wait for the learner after each turn.
+   - Stay in role unless correcting.
+
+3. Correct lightly.
+   - Prioritize meaning blockers, unnatural phrasing, and repeated mistakes.
+   - Do not rewrite every sentence.
+   - Use this format:
+     - `Better:` natural version.
+     - `Why:` short explanation in Chinese unless the user asks for English only.
+     - `Try:` one follow-up line for the learner.
+
+4. Adjust difficulty.
+   - Beginner: simple sentences, common words, clear prompts.
+   - Intermediate: natural phrasing, follow-up questions, useful idioms.
+   - Advanced: nuance, register, faster topic shifts, concise feedback.
+
+5. End with review.
+   - Summarize 3-5 useful phrases.
+   - List recurring errors.
+   - Give one short next practice task.
+
+## Modes
+
+- `roleplay`: default, interactive turn-by-turn conversation.
+- `script`: write a complete dialogue when the user asks for a sample.
+- `coach`: review a written or spoken transcript.
+- `drill`: repeat one pattern across varied contexts.
+
+## Guardrails
+
+- Keep responses short enough for speaking practice.
+- Prefer natural English over literal translation.
+- Do not explain grammar terms unless they help.
+- Do not continue both sides of an interactive roleplay when the learner should reply.
